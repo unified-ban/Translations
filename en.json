@@ -1,0 +1,312 @@
+[
+	{
+		"LanguageId": "en",
+		"KeyId": "addbadword_command_error",
+		"Translation": "[Error!]\nUnexpected error occurred. Try again in few minutes or contact the support with /call if this issue persists."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "addbadword_command_error_missingargument",
+		"Translation": "⚠️ Syntax error:\n\n/bad {record_name} {words space separated}\n\nexample:\n/bad MyBadWords sell account paypal\n\nthis rule will match every message containing all the words"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "addbadword_command_success",
+		"Translation": "[Log]\nSuccess! New bad word rule added."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "addnote_command_error_generic",
+		"Translation": "[Error ⚠️]\nUnexpected error occurred. Try again in few minutes or contact the support with /call if this issue persists."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "addnote_command_success",
+		"Translation": "Note added with success!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "addsafe_command_success",
+		"Translation": "Group {{groupname}} added successfully to the safe list!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "ban_command_error",
+		"Translation": "[Error!]\nUnexpected error occurred. Try again in few minutes or contact the support with /call if this issue persists."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "ban_command_error_adminPrivilege",
+		"Translation": "[Error!]\nYou don't have the privilege to ban users in this group."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "ban_command_error_invalidUserId",
+		"Translation": "[Error!]\nThe provided id is invalid. Use /ban replying to a message from the user or use /get, in reply to a message, to get his/her user id."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "ban_command_error_invalidUsername",
+		"Translation": "[Error!]\nThis username is not in cache. Use /ban replying to a message from the user or use /get, in reply to a message, to get his/her user id."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "ban_command_error_notadmin",
+		"Translation": "[Error!]\nYou are not an admin of this group."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "ban_command_success",
+		"Translation": "[Log]\nUser banned successfully."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_command_alreadylisted",
+		"Translation": "[Error!]\nUser is already blacklisted."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_command_error",
+		"Translation": "[Error!]\nUnexpected error occurred. Try again in few minutes or contact a higher level operator."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_command_error_invalidUserId",
+		"Translation": "[Error!]\nThe provided id is invalid. Use /ban replying to a message from the user or use /get, in reply to a message, to get his/her user id."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_command_error_invalidUsername",
+		"Translation": "[Error!]\nThis username is not in cache. Use /ban replying to a message from the user or use /get, in reply to a message, to get his/her user id."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_command_error_notoperator",
+		"Translation": "[Error!]\nYou are not an operator or you don't have the required level."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_command_success",
+		"Translation": "[Log]\nUser added to blacklist."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_reason_harassment",
+		"Translation": "Harassment"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_reason_other",
+		"Translation": "Other (specify)"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_reason_scam",
+		"Translation": "SCAM"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "bb_reason_spam",
+		"Translation": "SPAM"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "button_removeFlood",
+		"Translation": "Remove flood restriction"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "captcha_iamhuman",
+		"Translation": "I am human!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_announce_header",
+		"Translation": "<b>Announce from administrators:</b>"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_check_first_row",
+		"Translation": "I have following permissions"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_config_welcometext",
+		"Translation": "Welcome text value"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_gate_missing_schedule",
+		"Translation": "*[Log]*\nImpossible to change schedule status.\nThe schedule time is not set. Use /setgate to select the schedule time."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_id_fromReply_negative",
+		"Translation": "`{{replyToMessage_from_username}}` is *not* a certified unified/ban operator. ⚠️\nFeel free to /report if necessary!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_id_fromReply_positive",
+		"Translation": "`{{replyToMessage_from_username}}` is a certified unified/ban operator. 👌🏼\nAs an operator he can perform maintenance and support."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_id_negative",
+		"Translation": "`{{from_username}}` is *not* a certified unified/ban operator. ⚠️\nFeel free to /report if necessary!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_id_positive",
+		"Translation": "`{{from_username}}` is a certified unified/ban operator. 👌🏼\nAs an operator he can perform maintenance and support."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_pin_missingMessage",
+		"Translation": "⚠️ No message specified.\nThis command must be used in reply to a message.\n\nType /help for more info."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_setrules_error",
+		"Translation": "*[Log]*\n\n*Error* updating rules message!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_setrules_instructions",
+		"Translation": "Provide new rules message.\n\n<b>Available variables:</b> {{from_username}}, {{from_first_name}}, {{from_last_name}}, {{chat_title}}.\n\n<b>Available markup:</b> HTML with \\n as line break."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_setrules_success",
+		"Translation": "*[Log]*\n\nRules message updated successfully"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_setwelcome_error",
+		"Translation": "*[Log]*\n\n*Error* updating welcome message!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_setwelcome_instructions",
+		"Translation": "Provide new welcome message.\n\n<b>Available variables:</b> {{from_username}}, {{from_first_name}}, {{from_last_name}}, {{chat_title}}.\n\n<b>Available markup:</b> HTML with \\n as line break."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_setwelcome_success",
+		"Translation": "*[Log]*\n\nWelecome message updated successfully"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "command_to_operator_not_allowed",
+		"Translation": "[Error!]\nYou can't ban a certified unified/ban operator. Use /report to report an abuse."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "done",
+		"Translation": "done"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "error",
+		"Translation": "error"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "error_addnote_command_onreply",
+		"Translation": "⚠️ Syntax error:\n\n/addnote can be used on reply of a message that starts with a #tag"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "error_addnote_command_starttag",
+		"Translation": "⚠️ Syntax error:\n\n/addnote {first tag} {note's text}\n\nexample:\n/addnote #Topics\nThis is the list of topics:\n- #Games\n- #Movies\n- #Food\n\nthe note will be matched by every tag present in the note's text"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "error_invalid_command",
+		"Translation": "Invalid command!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "error_invalid_parameters",
+		"Translation": "Invalid parameters"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "error_not_auth_command",
+		"Translation": "You are not authorized to run this command."
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": false,
+		"Translation": "False"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "gettrustfactor_command_text",
+		"Translation": "Trust factor of user {0} is {1}/100"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "gettrustfactor_command_text_wuser",
+		"Translation": "Trust factor of user {0}:{2} is {1}"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "message_group_first_join",
+		"Translation": "🥳 Welcome in unified/ban! 🥳\n\nAllow me to suggest you the next steps:\nFirst of all run the command /check to see if I have the correct permissions to work properly.\nUse the command /help to get a list of commands.\n\n❔In case of doubts: reach my operators in the [unifiedban group](https://t.me/unifiedban_group) or, if this is a public group, use /call to receive them here.\n👀To know if an user is a certified operator you can reply /id to any of his messages and I'll tell you the truth.\n\n📣Remember to follow me in the[ news channel](https://t.me/unifiedban_news)\nand on [Twitter](https://twitter.com/unifiedban).\n🔎Keep an eye on [my logs](https://t.me/unifiedban_logs)\n📍And last, but not least, follow my creators on [Twitch](https://www.twitch.tv/prometheus_studio/)\n\nI hope we'll enjoy our time together!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "message_welcome_default",
+		"Translation": "Welcome in {{chat_title}}, <b>{{from_username}}</b>! Please read the /rules"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "optional",
+		"Translation": "Optional"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "privilege_ban_users",
+		"Translation": "Can ban users"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "privilege_check_ko",
+		"Translation": "My permissions are *not* configured correctly! ‼️"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "privilege_check_ok",
+		"Translation": "My permissions are configured correctly! 👍🏼"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "privilege_delete_messages",
+		"Translation": "Can delete messages"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "privilege_pin_messages",
+		"Translation": "Can pin messages"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "remsafe_command_success",
+		"Translation": "Group {{groupname}} removed successfully from the safe list!"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "result",
+		"Translation": "Result"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": "setting_language_desc",
+		"Translation": "Select language for group"
+	},
+	{
+		"LanguageId": "en",
+		"KeyId": true,
+		"Translation": "True"
+	}
+]
