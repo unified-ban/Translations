@@ -1,0 +1,14 @@
+{
+  "message_group_first_join": "🥳Bem-vindo ao unified/ban!🥳\n\nPermita-me sugerir as próximas etapas:\nEm primeiro lugar, execute o comando /check se tenho as permissões corretas para funcionar corretamente.\nUse o comando /help para obter uma lista de comandos.\n\n❔Em caso de dúvidas: fale com minhas operadoras do [grupo unifiedban] (https://t.me/unifiedban_group) ou, se for um grupo público, use /call para recebê-los aqui.\n👀Para saber se um usuário é um operador certificado você pode responder /id a qualquer uma de suas mensagens e eu lhe direi a verdade.\n\n📣Lembre-se de me seguir no [canal de notícias] (https://t.me/unifiedban_news)\ne no [Twitter] (https://twitter.com/unifiedban).\n🔎Fique de olho em [meus registros] (https://t.me/unifiedban_logs)\n📍 E por último, mas não menos importante, siga meus criadores no [Twitch] (https://www.twitch.tv/prometheus_studio/)\n\nEspero que possamos aproveitar nosso tempo juntos!",
+  "message_welcome_default": "Bem-vindo ao {{chat_title}}, <b> {{from_username}} </b>! Leia as /regras",
+  "optional": "Opcional",
+  "privilege_ban_users": "Pode banir usuários",
+  "privilege_check_ko": "Minhas permissões *não* estão configuradas corretamente! 👎",
+  "privilege_check_ok": "Minhas permissões estão configuradas corretamente! 👍🏼",
+  "privilege_delete_messages": "Pode deletar mensagens",
+  "privilege_pin_messages": "Pode fixar mensagens",
+  "remsafe_command_success": "Grupo {{groupname}} removido com sucesso da lista segura!",
+  "result": "Resultado",
+  "setting_language_desc": "Selecione o idioma do grupo",
+  "true": "Verdadeiro"
+}
